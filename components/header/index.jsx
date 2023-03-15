@@ -1,4 +1,5 @@
 import Logo from "../../public/images/logo.svg"
+import Link from "next/link"
 import Image from "next/image"
 
 const Header = () => {
@@ -8,11 +9,23 @@ const Header = () => {
         </div>
 
         <div className="menu">
-            
+            <ul>
+                <li>
+                    <Link href="/">Home</Link>
+                </li>
+
+                <li>
+                    <Link href="/">O que fazemos</Link>
+                </li>
+
+                <li>
+                    <Link href="/">Cases</Link>
+                </li>
+            </ul>
         </div>
 
         <div className="action">
-            
+            <button>Fale Conosco</button>
         </div>
     </div>
 }
