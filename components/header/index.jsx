@@ -16,7 +16,7 @@ const Header = () => {
         </div>
 
         <div className={Styles.action}>
-            <button className={Styles.button}>Fale Conosco</button>
+            
         </div>
     </div>
 }
