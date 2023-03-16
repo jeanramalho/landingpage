@@ -1,4 +1,4 @@
-const Button = () => {
+const Button = ({title}) => {
     return <button className={Styles.button}>{title}</button>
 }
 
