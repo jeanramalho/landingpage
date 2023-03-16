@@ -2,6 +2,7 @@ import Logo from "../../public/images/logo.svg"
 import Link from "next/link"
 import Image from "next/image"
 import Styles from "./header.module.scss"
+import Button from "../button"
 
 const Header = () => {
     return <div className={Styles.container}>
@@ -16,7 +17,7 @@ const Header = () => {
         </div>
 
         <div className={Styles.action}>
-            
+            <Button title="Fale Conosco" />
         </div>
     </div>
 }
