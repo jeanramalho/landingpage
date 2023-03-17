@@ -6,7 +6,7 @@ const Welcome = () => {
         <div className={Styles.text}>
             <h1>Melhor agência de marketing do bairro</h1>
             <p>Somos uma agência de performance digital, aceleramos vendas e aquisição de leads para grandes marcas.</p>
-            <Button title="Aumentar Vendas"/>
+            <Button title="Aumentar Vendas" kind="secondary"/>
         </div>
         <div className={Styles.image}></div>
     </div>

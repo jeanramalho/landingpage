@@ -3,9 +3,9 @@ import Styles from "./button.module.scss"
 const Button = ({title, kind}) => {
     const generationClassKing =  () => {
         if(kind === "secondary") {
-            return "secondary"
+            return Styles.secondary
         }
-        return "primary"
+        return Styles.primary
     }
     return <button className={`${Styles.button} ${generationClassKing()}`}>{title}</button>
 }
