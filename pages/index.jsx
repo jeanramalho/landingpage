@@ -3,10 +3,9 @@ import Header from "../components/header"
 import Welcome from "../components/welcome"
 
 export default function Home() {
-  return (
-    <div className={Styles.container}>
+  return <div className={styles.container}>
       <Header />
       <Welcome />
-    <div/>
-  )
+    </div>
+  
 }
