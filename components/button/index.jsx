@@ -7,7 +7,7 @@ const Button = ({title, kind}) => {
         }
         return "primary"
     }
-    return <button className={Styles.button}>{title}</button>
+    return <button className={`${Styles.button} ${generationClassKing()}`}>{title}</button>
 }
 
 export default Button
