@@ -12,7 +12,7 @@ const Welcome = () => {
             <Button title="Aumentar Vendas" kind="secondary"/>
         </div>
         <div className={Styles.image}>
-            <Image src={BannerWelcome} />
+            <Image src={BannerWelcome} alt="Banner Welcome"/>
         </div>
     </div>
 }
