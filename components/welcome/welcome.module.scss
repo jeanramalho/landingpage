@@ -1,4 +1,8 @@
+@import "/styles/mixins/padding.scss";
+
 .container {
+    @include Padding;
+    background-image: url("/images/fundoWelcome.svg");
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
