@@ -6,7 +6,9 @@ const Features = () => {
 
         <div className={Styles.features}>
             <div className={Styles.feature}></div>
-
+            <div className={Styles.feature}></div>
+            <div className={Styles.feature}></div>
+            <div className={Styles.feature}></div>
         </div>
 
     </div>
