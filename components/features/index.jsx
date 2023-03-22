@@ -1,4 +1,6 @@
 import Styles from "./features.module.scss"
+import Icon from "../../public/images/icon.svg"
+import Image from "next/image"
 
 const Features = () => {
     return <div>
@@ -7,25 +9,25 @@ const Features = () => {
 
         <div className={Styles.features}>
             <div className={Styles.feature}>
-                icon
+                <Image src={Icon}/>
                 <h1>Digital Strategy</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
             </div>
 
             <div className={Styles.feature}>
-                icon
+                <Image src={Icon}/>
                 <h1>Digital Strategy</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
             </div>
 
             <div className={Styles.feature}>
-                icon
+                <Image src={Icon}/>
                 <h1>Digital Strategy</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
             </div>
 
             <div className={Styles.feature}>
-                icon
+                <Image src={Icon}/> 
                 <h1>Digital Strategy</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
             </div>
