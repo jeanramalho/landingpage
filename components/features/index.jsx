@@ -3,7 +3,7 @@ import Icon from "../../public/images/icon.svg"
 import Image from "next/image"
 
 const Features = () => {
-    return <div>
+    return <div className={Styles.container}>
         <h1>Neste bairro, não há agência melhor. Garantimos.</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
