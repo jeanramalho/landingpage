@@ -1,4 +1,5 @@
-import Styles from "./features.modules.scss"
+import Styles from "./features.module.scss"
+
 const Features = () => {
     return <div>
         <h1>Neste bairro, não há agência melhor. Garantimos.</h1>
